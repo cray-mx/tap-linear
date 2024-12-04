@@ -1,5 +1,5 @@
 issuesQuery = """
-        query Issues($next: String, $replicationKeyValue: DateTime) {
+        query Issues($next: String, $replicationKeyValue: DateTimeOrDuration) {
 						issues(
 							first: 100
 							after: $next
