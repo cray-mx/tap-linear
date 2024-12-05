@@ -13,7 +13,14 @@ issuesQuery = """
 								id
 								title
 								url
+								createdAt
 								updatedAt
+								canceledAt
+								completedAt
+								dueDate,
+								priority
+								priorityLabel
+								description
 								creator {
 									id
 									name
@@ -31,6 +38,13 @@ issuesQuery = """
 								team {
 									id
 									name
+								}
+								state {
+									createdAt
+									id
+									name
+									updatedAt
+									position
 								}
 							}
 						}
