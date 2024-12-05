@@ -21,6 +21,7 @@ issuesQuery = """
 								priority
 								priorityLabel
 								description
+								identifier
 								creator {
 									id
 									name

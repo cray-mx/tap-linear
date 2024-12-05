@@ -12,6 +12,7 @@ issuesSchema = th.PropertiesList(
     th.Property("priority", th.IntegerType),
     th.Property("priorityLabel", th.StringType),
     th.Property("description", th.StringType),
+    th.Property("identifier", th.StringType),
 
     th.Property(
         "creator",
