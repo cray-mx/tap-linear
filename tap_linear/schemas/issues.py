@@ -50,7 +50,7 @@ issuesSchema = th.PropertiesList(
             th.Property("id", th.StringType),
             th.Property("name", th.StringType),
             th.Property("updatedAt", th.DateTimeType),
-            th.Property("position", th.IntegerType)
+            th.Property("position", th.NumberType)
         ),
     ),
 ).to_dict()
